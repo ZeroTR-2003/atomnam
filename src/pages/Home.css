@@ -1,0 +1,137 @@
+.home-wrapper {
+  padding: 80px 6vw;
+  background: #f8fafc;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  position: relative;
+  overflow: hidden;
+}
+
+.home-page {
+  position: relative;
+  overflow-x: hidden;
+}
+
+.svg-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 400px;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.hero-banner {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.hero-heading {
+  font-size: 56px;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 20px;
+}
+
+.hero-subtext {
+  font-size: 18px;
+  color: #475569;
+}
+
+/* Grid Card Layout */
+.grid-card-section {
+  z-index: 2;
+  position: relative;
+}
+
+.section-heading {
+  font-size: 32px;
+  font-weight: 600;
+  color: #0f172a;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.grid-card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 32px;
+}
+
+.grid-card {
+  background: white;
+  border-radius: 28px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.grid-card:hover {
+  transform: translateY(-6px);
+}
+
+.grid-card-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.grid-card-body {
+  padding: 20px;
+}
+
+.grid-card-body h3 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #0f172a;
+  margin-bottom: 6px;
+}
+
+.grid-card-body p {
+  font-size: 15px;
+  color: #475569;
+}
+
+/* Thematic card background (optional if needed) */
+.card-mint { background-color: #bbf7d0; }
+.card-orange { background-color: #f97316; color: white; }
+.card-lime { background-color: #fef9c3; }
+.card-blue { background-color: #bfdbfe; }
+
+/* CTA */
+.cta-section {
+  text-align: center;
+  background:#bec0c2;
+  padding: 80px 20px;
+  border-radius: 24px;
+}
+
+.cta-section h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #0f172a;
+}
+
+.cta-section p {
+  font-size: 18px;
+  color: #475569;
+  margin-bottom: 20px;
+}
+
+.launch-button {
+  background: #f97316;
+  color: white;
+  font-size: 16px;
+  padding: 14px 32px;
+  border: none;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 600;
+  box-shadow: 0 6px 20px rgba(249, 115, 22, 0.25);
+}
