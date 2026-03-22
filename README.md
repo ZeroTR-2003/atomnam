@@ -1,12 +1,53 @@
-# React + Vite
+# Atom Namibia – U₃O₈ Flow Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)  
+![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 
-Currently, two official plugins are available:
+> A frontend dashboard to visualise and monitor uranium (U₃O₈) supply chain flows in Namibia.  
+> Built with React, Vite, and Tailwind CSS. Deployed on Vercel.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🧭 Table of Contents
+- [About the Project](#about-the-project)
+- [Tech Stack](#tech-stack)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Running Locally](#running-locally)
+- [Project Structure](#project-structure)
+- [Roadmap](#roadmap)
+- [Contributing](#contributing)
+- [License](#license)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📌 About the Project
+
+Namibia is a leading uranium producer, yet the flow of U₃O₈ from mines to export is often fragmented across reports. **Atom Namibia** aims to centralise this data into an interactive dashboard, helping stakeholders track production, logistics, and market trends.
+
+This repository contains the frontend application, which fetches and displays data from a backend (planned). Currently, it provides a clean layout and mock data to demonstrate the intended user experience.
+
+**Live demo:** [https://atomnam.vercel.app](https://atomnam.vercel.app)
+
+---
+
+## 🛠 Tech Stack
+
+- **React 19** – UI library
+- **Vite** – Build tool and dev server
+
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js (v18+)
+- npm or yarn
+
+### Installation
+```bash
+git clone https://github.com/ZeroTR-2003/atomnam.git
+cd atomnam
+npm install
